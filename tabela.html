@@ -8,11 +8,15 @@
 </head>
 <body>
     <!-- Tabela -->
-    <table>
+    <!-- 'summary', 'caption', 'abrr=' e 'scope' - acessibilidade tabelas -->
+
+    <table summary="Agenda anual das atividades">
+        <caption>Tabela: Informação sobre a agenda anual das atividades</caption>
         <thead>
             <tr>
-                <th>Mês de Atividade</th>
-                <th>Atividade</th>
+
+                <th abbr="Mês" scope="col">Mês de Atividade</th>
+                <th scope="col">Atividade</th>
             </tr>
         </thead>
         <tbody>
